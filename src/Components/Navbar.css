@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+*{
+    font-family: 'Lato', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+
+nav h2 a{
+    text-decoration: none;
+    font-size: 2rem;
+    letter-spacing: .5px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 25px 0 5px;
+    letter-spacing: .5px;
+    text-decoration: none; 
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.menu ul li a:hover{
+ 
+    color:#b4e0ec; 
+}
+.nav-link{
+    display: none;
+}
+.fa-times{
+    display: none;
+}
+.nav-icons i{
+    margin-right: 20px;
+}
+.nav-search{
+    font-size: 1.4rem;
+    color: beige;
+}
+
+.fa-bars{
+display: none;
+font-size: 1.5rem;
+cursor: pointer;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    display: none;
+    /*z-index: 4;*/
+
+}
+.Login{
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color:#315baf;
+}
+
+
+
+
+
+
+
+
+
+
+/*Media Query*/
+@media screen and (max-width:1024px){
+    nav{
+            box-shadow: 0 3px 3px -3px #0000001f;
+            justify-content: space-between;
+            padding: 18px 25px 0 25px;
+            height: 100%;
+    }
+    nav h2 a{
+        margin: auto;
+    }
+
+    .menu{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        height: 100vh;
+        width: 300px;
+        z-index: 10;
+        overflow-y: scroll;
+        transform: translateX(-300px);
+        background-color: #0e1420;
+        visibility: hidden;
+        overflow-x: hidden;
+        transition: transform 1s ease-out;
+
+    }
+    .menu ul{
+        display: block;
+    }
+
+    .menu ul li{
+        display: block;
+        border-bottom:double 1px #685abf;
+        padding: 15px 15px;
+        margin: 0;
+    }
+
+    .menu ul li a{
+        font-size: 15px;
+    }
+    .mobile-menu{
+        transform: translateX(0px);
+        visibility: visible;
+        transition: transform 1s ease-out, visibility 0s;
+    }
+    .nav-link{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .nav-link a{
+        padding: 10px 15px;
+        color: #2975f8;
+        font-weight: 400;
+        font-size: 15px;
+
+    }
+    .fa-bars{
+        display: flex;
+    }
+    .fa-times{
+        display: flex;
+        position: absolute;
+        right: 5%;
+        top:10px;
+        font-size: 1.5rem;
+        color: grey;
+        cursor: pointer;
+    }
+    .Login{
+        display: none;
+    }
+    .active{
+        display: block;
+    }
+
+}
+
+@media screen and (max-width:425px){
+nav{
+    padding: 15px 20 px 0 20px;
+}
+.nav-icons i{
+    font-size: 1.6rem;
+    margin-right: 10px;
+
+}
+nav h2 a{
+    font-size: 1.7rem;
+    margin-left: 10px;
+}
+.fa-bars{
+    font-size: 1.6rem;
+}
+.menu ul li a:hover{
+ 
+    color:#b4e0ec; 
+}
+    
+}

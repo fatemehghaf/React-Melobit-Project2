@@ -3,10 +3,12 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {FaHome,FaSearch} from 'react-icons/fa'
 import { Container, Button, Card, InputGroup, Row, FormControl} from 'react-bootstrap'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Fragment } from 'react'
 import React from 'react';
+import { Route, Switch } from 'react-router-dom'
 import axios from 'axios'
 import Footer from './Components/Footer';
+import Navbar from './Components/Navbar'
 
 
 
@@ -27,11 +29,16 @@ function App() {
       console.log(data))
   }
   return (
-    <div className="App pb-2 pt-1">
 
+    <div>
+    <div className="App pb-2 pt-1">
+    <Fragment className="Nav-Frag">
+    <Navbar/>
+    </Fragment>
       {/*Header */}
       <header className="App-header mb-5">      
         <Container>
+          {/*
         <h2>
         <a className="App-link" href="./index.html"
         >
@@ -39,7 +46,7 @@ function App() {
           <p>Melobit</p>
         </a>
         </h2>
-
+  */}
 
         <InputGroup className='mb-4 m-1 p-1'>
           <FormControl
@@ -149,7 +156,7 @@ function App() {
       <Footer/>
     </div>
     
-	
+    </div>
   );
 }
 
