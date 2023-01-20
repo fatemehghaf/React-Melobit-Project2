@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+.lyric{
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+.player-card {
+    width: 300px !important;
+    height: 300px !important;
+    padding: 20px;
+
+}
+
+.lyrics p {
+    font-family: 'Noto Sans Arabic', sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: whitesmoke;
+
+}
+.row-between {
+    width: 300px;
+    display: flex;
+    margin-left: 470px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}

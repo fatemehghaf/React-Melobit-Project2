@@ -14,10 +14,10 @@ const Navbar =()=>{
                 <i className="fa-bars text-white" onClick={() => setShowMenu(true)}><FaBars/></i>
  
                 <h2>
-                <a className="App-link" href="./index.html">
+                <Link to="/" className='text-decoration-none'><a className="App-link" href="#">
                 <img src={logo} className="App-logo m-2" alt="logo" />
                 <p>Melobit</p>
-                </a>
+                </a></Link>
                 </h2>
 
                 <div className={showMenu ? 'menu mobile-menu' : 'menu'}>

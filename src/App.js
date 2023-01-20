@@ -4,7 +4,6 @@ import React from 'react'
 import { Route, Routes,BrowserRouter } from 'react-router-dom'
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
-
 import Searchbar from "./Components/Searchbar";
 import SongDetails from "./Components/SongDetails";
 
