@@ -38,7 +38,8 @@ li{
 }
 .menu ul li a:hover{
  
-    color:#b4e0ec; 
+    color:#c46fbd;
+    /*#b4e0ec;  */
 }
 .nav-link{
     display: none;
@@ -53,6 +54,9 @@ li{
     font-size: 1.4rem;
     color: beige;
 }
+.nav-search :hover{
+    color: #b364ad;
+} 
 
 .fa-bars{
 display: none;
@@ -141,7 +145,7 @@ cursor: pointer;
     }
     .nav-link a{
         padding: 10px 15px;
-        color: #2975f8;
+        color: #5492ff;
         font-weight: 400;
         font-size: 15px;
 

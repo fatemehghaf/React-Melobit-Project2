@@ -14,25 +14,24 @@ return (
         <FooterContainer>
           <FooterRow>
             <FooterColumn>
-              <Heading>About Us</Heading>
-              <FooterLink href="#">Aim</FooterLink>
-              <FooterLink href="#">Vision</FooterLink>
-              <FooterLink href="#">Testimonials</FooterLink>
+            <Heading>About Melobit</Heading>
+              <FooterLink href="#">About Melobit</FooterLink>
+              <FooterLink href="#">FAQS</FooterLink>
+              <FooterLink href="#">Privacy Policy</FooterLink>
             </FooterColumn>
 
             <FooterColumn>
               <Heading>Services</Heading>
-                <FooterLink href="#">Writing</FooterLink>
-                <FooterLink href="#">Internships</FooterLink>
-                <FooterLink href="#">Coding</FooterLink>
+                <FooterLink href="#">Need Help</FooterLink>
+                <FooterLink href="#">Cookies</FooterLink>
+                <FooterLink href="#">New Releases</FooterLink>
 
             </FooterColumn>
 
             <FooterColumn>
-              <Heading>Contact Us</Heading>
-              <FooterLink href="#">Uttar Pradesh</FooterLink>
-              <FooterLink href="#">Ahemdabad</FooterLink>
-              <FooterLink href="#">Indore</FooterLink>
+              <Heading>Info</Heading>
+              <FooterLink href="#">Privacy Center</FooterLink>
+              <FooterLink href="#">About Ads</FooterLink>
             </FooterColumn>
 			
             

@@ -1,0 +1,47 @@
+
+.carousel-img {
+    border-radius: 20px;
+}
+
+.sliderbg {
+    width: 220px;
+    margin-top: 60%;
+}
+
+.listen-now {
+    width: 50px;
+    height: 50px;
+    padding: 4.6px;
+    margin-bottom: -20px;
+    background: #b364ad;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    transform: matrix(1, 0, 0.01, 1, 0, 0);
+}
+
+.listen-now div {
+    padding: 8px;
+}
+
+.fa-play {
+    border-radius: 50%;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.carousel-caption {
+    width: 80%;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+@media screen and (max-width:780px){
+.sliderbg{
+    display: none;
+}
+}

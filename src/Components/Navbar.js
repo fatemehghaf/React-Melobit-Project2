@@ -33,7 +33,8 @@ const Navbar =()=>{
                     </div>
                     <div className="nav-icons">
                         <i className='text-white nav-search' href="#"><FaSearch/></i>
-                        <i className='fas Login bg-white p-2' aria-hidden="true"><FaTelegram/> Login With Telegram</i>
+                        <i className='fas Login bg-white p-2' aria-hidden="true">
+                            <a className='text-decoration-none' href="#"><FaTelegram/> Login With Telegram</a></i>
                     </div>
 
                     <div className={showMenu ? 'overlay active' : 'overlay'}></div>

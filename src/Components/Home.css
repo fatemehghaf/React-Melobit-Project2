@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+* {
+    font-family: 'Lato', serif;
+}
+
+.Nav-Frag{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.App-logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-beat infinite 1.5s alternate;
+    }
+}
+
+.App-header {
+    background-color: #2b235c;
+    /*1d519f*/
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    top: 0;
+    position: sticky;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 p {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+p {
+    color: aliceblue;
+    font-family: 'Lato', serif;
+    font-size: 28px;
+    text-align: left;
+}
+
+.social-icons {
+    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
+}
+
+@keyframes App-logo-beat {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.8);
+        /*translate(-350%, -200%)*/
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
